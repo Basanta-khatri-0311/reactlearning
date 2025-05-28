@@ -1,7 +1,10 @@
 import React from "react";
+import Neww from "./New";
 
 const App = () => {
-  return <h1>Learning react | Basanta Khatri</h1>;
+  return (
+    <Neww/>
+  )
 };
 
 export default App;
