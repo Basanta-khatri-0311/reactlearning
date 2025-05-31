@@ -33,7 +33,7 @@ function App() {
   }, [length, numberAllowed, charAllowed, generatePassword]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-[#0f172a] p-4">
+    <div className="flex items-center justify-center bg-[#0f172a] p-4">
       <div className="bg-[#1e293b] w-full max-w-md rounded-2xl p-6 shadow-lg text-white">
         <h1 className="text-2xl font-semibold text-center mb-6 tracking-wide text-orange-400">
           🔐Random Password Generator
