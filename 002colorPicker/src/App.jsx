@@ -28,7 +28,9 @@ import {
 function App() {
   const [color, setColor] = useState("white")
   
- 
+  const handleClick = () => {
+    setColor()
+  }
 
   return (
     <>
