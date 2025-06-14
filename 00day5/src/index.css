@@ -18,7 +18,12 @@ html,body {
   left: 50%;
   transform: translate(-50%,-50%);
 }
-
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
 .name,.comment {
   width: 100%;
   display: flex;
@@ -27,9 +32,22 @@ html,body {
   margin-top: 1rem;
 }
 
-#name {
+.mood {
+  display: flex;
+  gap: 15rem;
+}
+
+#name, #comment {
   padding: 1rem 1.5rem;
   outline: none;
   border: none;
   background-color: rgba(128, 128, 128, 0.532);
+}
+
+.btnSub{
+  padding: 1rem 1.5rem;
+  background-color: gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
