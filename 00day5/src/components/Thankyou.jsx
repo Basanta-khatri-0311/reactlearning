@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Thankyou() {
+function Thankyou({savedName}) {
   return (
-    <div>Thankyou</div>
+    <div>Thankyou {savedName } for your feedback </div>
   )
 }
 
