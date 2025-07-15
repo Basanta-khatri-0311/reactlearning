@@ -16,6 +16,4 @@ const ThemeProvider = ({ children }) => {
 //this is our consumer
 const useTheme = () => useContext(themeContext);
 
-
-
 export { useTheme, ThemeProvider };
