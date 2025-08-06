@@ -12,6 +12,7 @@ const LoginPage = () => {
       setUserName("");
       setPassword("");
     } else {
+      
       alert("Invalid username or password typed!");
     }
   };
