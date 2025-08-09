@@ -16,7 +16,6 @@ const LoginPage = () => {
       alert("Invalid username or password typed!");
     }
   };
-
   return (
     
     <div className="w-full h-screen flex items-center justify-center bg-gray-100">
